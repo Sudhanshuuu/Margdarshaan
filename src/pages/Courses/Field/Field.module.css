@@ -5,6 +5,14 @@
     perspective: 10px;
 }
 
+.loader{
+    position: absolute;
+    top: 95%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+}
+
 .nav-bar{
     position: absolute;
     height: 100%;
@@ -37,7 +45,7 @@
 @media  screen and (max-width:1000px) {
 
     .cards{
-        margin-top: 10%;
+        margin-top: 3%;
     }
 
     .cards>div{
@@ -47,10 +55,7 @@
 
 @media  screen and (max-width:750px){
 
-    .cards img{
-        display: none;
-    }
-
+   
     .cards>div{
         padding: 3% 2%;
         width: 90vw;
@@ -58,5 +63,9 @@
 
     .cards>div>div{
         padding: 2% 0;
+    }
+
+    .loader{
+        top:75%;
     }
 }
