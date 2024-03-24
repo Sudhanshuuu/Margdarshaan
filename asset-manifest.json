@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Maargdarshan/static/css/main.f567dba0.css",
+    "main.js": "/Maargdarshan/static/js/main.4275e151.js",
+    "static/media/law.jpg": "/Maargdarshan/static/media/law.e69de70d095c65c9784a.jpg",
+    "static/media/hotel.jpg": "/Maargdarshan/static/media/hotel.2945353521c22e236932.jpg",
+    "static/media/bgImg2.png": "/Maargdarshan/static/media/bgImg2.8812c5ff306304a85846.png",
+    "static/media/navy.jpg": "/Maargdarshan/static/media/navy.560eac3258cbc0531db8.jpg",
+    "static/media/serviceCareer.jpg": "/Maargdarshan/static/media/serviceCareer.fadb0d4506ce1ddf548f.jpg",
+    "static/media/serviceCollege.jpg": "/Maargdarshan/static/media/serviceCollege.f416bc1ccb0ce3ab09ea.jpg",
+    "static/media/eng.jpg": "/Maargdarshan/static/media/eng.fc3fdd4e72bcb1a7c475.jpg",
+    "static/media/maths.jpg": "/Maargdarshan/static/media/maths.6b14fdfa0d02278a06be.jpg",
+    "static/media/agro.jpg": "/Maargdarshan/static/media/agro.3edecca6447c3c0a6550.jpg",
+    "static/media/science.jpg": "/Maargdarshan/static/media/science.5c019981c5850539d60c.jpg",
+    "static/media/serviceExam.jpg": "/Maargdarshan/static/media/serviceExam.da1c61375b3ae7a22722.jpg",
+    "static/media/content.jpg": "/Maargdarshan/static/media/content.cdced41ba92af0204a3c.jpg",
+    "static/media/fashion.jpg": "/Maargdarshan/static/media/fashion.3cab586bfabc36406ca8.jpg",
+    "static/media/humanity.jpg": "/Maargdarshan/static/media/humanity.b5604b284b2bb67b786d.jpg",
+    "static/media/loader.gif": "/Maargdarshan/static/media/loader.595313f4cdf6b0896938.gif",
+    "static/media/medical.jpg": "/Maargdarshan/static/media/medical.e0e479a15f9525d9616c.jpg",
+    "static/media/course.jpg": "/Maargdarshan/static/media/course.a486473882f0ed1fc490.jpg",
+    "static/media/underGrad.png": "/Maargdarshan/static/media/underGrad.39bc599ffbd4a9b119cc.png",
+    "static/media/serviceShip2.jpg": "/Maargdarshan/static/media/serviceShip2.a77a37daedc35c53ef71.jpg",
+    "static/media/postGrad.png": "/Maargdarshan/static/media/postGrad.e4bc4236c8ba47497f70.png",
+    "static/media/about.jpg": "/Maargdarshan/static/media/about.fa7e5def7d4bcc57b294.jpg",
+    "static/media/exam.png": "/Maargdarshan/static/media/exam.afed35848a2067b995dd.png",
+    "static/media/collegePng.png": "/Maargdarshan/static/media/collegePng.9dd626a12f2337d11a56.png",
+    "static/media/insta.png": "/Maargdarshan/static/media/insta.56d3c2ef9b43e98875c0.png",
+    "static/media/youtube.png": "/Maargdarshan/static/media/youtube.4ad78c4004874a182b12.png",
+    "index.html": "/Maargdarshan/index.html",
+    "static/media/blob-scatterBg.svg": "/Maargdarshan/static/media/blob-scatterBg.c648d614f60a50e69436.svg",
+    "main.f567dba0.css.map": "/Maargdarshan/static/css/main.f567dba0.css.map",
+    "main.4275e151.js.map": "/Maargdarshan/static/js/main.4275e151.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f567dba0.css",
+    "static/js/main.4275e151.js"
+  ]
+}
