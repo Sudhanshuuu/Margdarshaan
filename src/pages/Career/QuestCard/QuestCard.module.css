@@ -1,0 +1,70 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    background-color: #FDF5F0;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    color: #606B71;
+    height: 20vh;
+    width: 80vw;
+    transition: 200ms ease-in;
+}
+
+.card>label {
+    text-align: center;
+    font-size: clamp(1.2rem, 3vw, 1.75rem);
+    font-weight: light;
+}
+
+.card>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    font-weight: bold;
+}
+
+.card input {
+    appearance: none;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    border: 0.5px solid #8AA08F;
+    border-radius: 50%;
+}
+
+
+.card input:hover {
+    background-color: #849C90;
+}
+
+.card input:checked {
+    background-color: #849C90;
+
+}
+
+
+.card:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:750px) {
+    .card{
+        padding: 1%;
+        height: 12vh;
+        width: 100vw;;
+    }
+
+    .card input{
+        margin: 1% 2%;
+        padding: 2%;
+    }
+}

@@ -1,0 +1,23 @@
+.item-list {
+    padding: 2% 10%;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 55px;
+    background-image: url("../../assets/blob-scatterBg.svg");
+    background-position: center;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:950px) {
+    .item-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .item-list {
+        grid-template-columns: 1fr;
+    }
+}

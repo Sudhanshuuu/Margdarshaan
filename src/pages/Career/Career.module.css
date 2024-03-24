@@ -1,0 +1,69 @@
+.career{
+    background-color: #f4e9e2;
+    overflow-x: hidden;
+}
+
+.aptitude {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.questions {
+    position: relative;
+    display: flex;
+
+}
+
+.desc {
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 80vw;
+    height: 5vh;
+    word-spacing: 40px;
+    font-family: 'Teko', sans-serif;
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    letter-spacing: 5px;
+    background-color: #D8A74F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btnDiv{
+    margin: 2% 0;
+    width:100%;
+    text-align: center;
+}
+
+.btn{
+    padding: 1% 3%;
+    font-size: 1.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+   border-radius: 10px;
+   border: none;
+   background-color: #f2b589;
+   color:white;
+   transition:all 300ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: #f19d60;
+}
+
+
+@media screen and (max-width:900px) {
+    .desc {
+        word-spacing: 10px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .desc {
+        word-spacing: 0;
+        width: 100vw;
+    }
+}

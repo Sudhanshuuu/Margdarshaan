@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.display {
+    flex: 1;
+    padding: 5%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    overflow-x: scroll;
+}
+
+.display::-webkit-scrollbar {
+    display: none;
+  }
+
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+.form input {
+    margin: 3%;
+    width: 90%;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.form input:hover {
+    transform: translateY(-5px) scale(1.025);
+}
+

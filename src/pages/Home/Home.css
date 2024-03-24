@@ -1,0 +1,27 @@
+.home{
+    height: 100vh;
+    overflow-x: hidden;
+
+    overflow-y: scroll;
+    perspective: 10px;
+}
+
+.moveHidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition:all 1s ease-in-out;
+}
+
+.blurHidden{
+    position: relative;
+    opacity: 0;
+    filter: blur(5px);
+    transition:all 1s ease-in-out;
+}
+
+.moveAnimation{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+}

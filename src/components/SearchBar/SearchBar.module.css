@@ -1,0 +1,31 @@
+.searchBar {
+    position: relative;
+    z-index: 5;
+    margin: 2%;
+    text-align: center;
+}
+
+.searchBar>input {
+    padding: 1% 2%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(244, 245, 251);
+    width: 50vw;
+    transition: 300ms ease-in-out;
+}
+
+.searchBar>input:hover {
+    transform: translateY(-15%);
+}
+
+@media screen and (max-width:950px) {
+    .searchBar {
+        padding: 3%;
+
+    }
+
+    .searchBar>input {
+        padding: 2% 3%;
+        width: 70vw;
+    }
+}

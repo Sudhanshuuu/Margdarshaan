@@ -1,0 +1,38 @@
+.main-questions{
+    display: flex;
+    width: 80vw;
+    overflow-x: hidden;
+    
+
+}
+
+.carrer-que-btns{
+    padding: 1% 0;
+    background-color: #F4E9E2;
+    text-align: center;
+}
+
+.carrer-que-btns>div:nth-of-type(1){
+    padding: 1% 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.carrer-que-btns button{
+    margin: 0 1%;
+    border:none;
+    border-radius: 50%;
+    background-color: #F4CAAD;
+    width:20px;
+    height:20px;
+}
+
+.carrer-que-btns .clicked-que-btn{
+    background-color: #D28072;
+}
+
+@media screen and (max-width:750px) {
+    .main-questions{
+        width: 100vw;
+    }
+}

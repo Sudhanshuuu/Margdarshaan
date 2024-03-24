@@ -1,0 +1,43 @@
+.user {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.933);
+    padding: 3%;
+
+}
+
+.loader{
+    margin-bottom: 30px;
+    margin-left: 80%;
+
+    border-radius: 10px;
+    background-color: #fbc0ffdd;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 1%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.assistant {
+
+    margin-bottom: 30px;
+    margin-left: 30%;
+
+    border-radius: 10px;
+    background-color: #fbc0ffdd;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 3%;
+}
+
+@media screen and (max-width:750px) {
+    .user {
+        width: 80%;
+    }
+
+    .assistant {
+        margin-left: 0%;
+        width: 80%;
+
+    }
+}

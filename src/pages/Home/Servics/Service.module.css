@@ -1,0 +1,124 @@
+.service {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    padding: 2% 5vw 5% 5vw;
+
+}
+
+.head {
+    margin: 2% 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    text-align: start;
+
+}
+
+.head>p {
+    margin: 0;
+
+}
+
+.grid {
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35vh 35vh;
+    column-gap: 30px;
+    row-gap: 5vh;
+*/
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.75rem;
+    font-family: 'Barlow Condensed', sans-serif;
+
+
+}
+
+.grid>div{
+    height: 40vh;
+    width: 25vw;
+}
+
+.grid>div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.4s ease-in-out;
+}
+
+.underlay {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.83);
+    text-align: center;
+    padding: 1% 0;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 15px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Quicksand';
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+.grid-item2 {
+    background-image: url("../../../assets/serviceCareer.jpg");
+    border: 1.5px solid rgba(255, 212, 47, 0.4);
+    box-shadow: rgba(255, 212, 0, 0.4) 0px 2px 4px, rgba(255, 212, 0, 0.3) 0px 7px 13px -3px, rgba(255, 212, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.grid-item3 {
+    background-image: url("../../../assets/serviceCollege.jpg");
+    border: 1.5px solid rgba(255, 125, 105, 0.318);
+    box-shadow: rgba(255, 125, 105, 0.4) 0px 2px 4px, rgba(255, 125, 105, 0.3) 0px 7px 13px -3px, rgba(255, 125, 105, 0.2) 0px -3px 0px inset;
+
+}
+
+.grid-item4 {
+    background-image: url("../../../assets/serviceExam.jpg");
+    border: 1.5px solid rgba(89, 228, 168, 0.4);
+    box-shadow: rgba(89, 228, 168, 0.4) 0px 2px 4px, rgba(89, 228, 168, 0.3) 0px 7px 13px -3px, rgba(89, 228, 168, 0.2) 0px -3px 0px inset;
+
+
+}
+
+.grid-item5 {
+    background-image: url("../../../assets/serviceShip2.jpg");
+    border: 1.5px solid rgba(247, 183, 145, 0.4);
+    box-shadow: rgba(247, 183, 145, 0.4) 0px 2px 4px, rgba(247, 183, 145, 0.3) 0px 7px 13px -3px, rgba(247, 183, 145, 0.2) 0px -3px 0px inset;
+
+}
+
+.grid>div>div:hover {
+    cursor: pointer;
+    transform: scale(1.035);
+}
+
+@media screen and (max-width:950px) {
+    .grid{
+        flex-direction: column;
+    }
+    .grid>div{
+        margin:3%;
+        height: 30vh;
+        width:90vw;
+    }
+}

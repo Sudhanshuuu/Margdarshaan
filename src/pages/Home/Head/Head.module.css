@@ -1,0 +1,94 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    transform-style: preserve-3d;
+
+}
+
+.head-bgImg {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translateZ(-10px) scale(2);
+}
+
+.head-body {
+    display: flex;
+    position: absolute;
+    box-sizing: content-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 25px;
+    padding: 1%;
+    height: 88vh;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.825) 0%, rgba(255, 255, 255, 0.896) 30%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35vw;
+    padding: 3%;
+}
+
+
+
+.content .head {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.5rem;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: bold;
+}
+
+.content .head>div{
+    font-size: 1rem;
+}
+
+.content .body {
+    margin-bottom: 10%;
+    padding: 3%;
+}
+
+.content button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 3% 7%;
+    border-radius: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    transition: 0.5s ease-in-out;
+
+}
+
+.chatbox {
+    width: 50vw;
+    background-color: transparent;
+}
+
+.content button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media  screen and (max-width:750px) {
+    .head-body{
+        flex-direction: column;
+    }
+    .content .body{
+        display: none;
+    }
+    .content button{
+        display: none;
+    }
+    .chatbox{
+        flex: 1;
+        width:80vw;
+    }
+}

@@ -1,0 +1,49 @@
+.box{
+    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.box img{
+    position: relative;
+    z-index: -3;
+    height: 90vh;
+
+}
+
+.overlay{
+    
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(3rem , 5vw, 5rem);
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.overlay>div{
+
+    padding: 2% 10%;
+    border-top: 4px solid white ;
+    border-bottom: 4px solid white ;
+    border-radius: 3px;
+    text-align: center;
+}
+
+@media  screen and (max-width : 750px) {
+    .box img{
+         height: 50vh;    
+    }
+
+    .overlay{
+        height: 50vh;
+    }
+}

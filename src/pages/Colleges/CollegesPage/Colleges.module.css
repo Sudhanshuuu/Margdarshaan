@@ -1,0 +1,156 @@
+.page {
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.page-content {
+    margin: 5%;
+
+}
+
+.intro {
+    margin: 0;
+    padding-bottom: 1%;
+    font-size: clamp(1.25rem, 4vw, 2rem);
+    border-bottom: 1px rgba(0, 0, 0, 0.275) solid;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter button {
+    margin: 2%;
+    padding: 1% 2%;
+    height: 75%;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #81b3ffcd;
+    color: white;
+}
+
+.colleges {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.colleges img {
+    margin-right: 5px;
+    width: 50px;
+}
+
+.colleges>div {
+    display: flex;
+    align-items: center;
+}
+
+.colleges>div>div:nth-of-type(1) {
+    flex: 0.5;
+}
+
+.colleges>div>div:nth-of-type(2) {
+    flex: 3;
+}
+
+.colleges>div>div {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    height: 5vh;
+    border: 0.5px rgba(0, 0, 0, 0.1) solid;
+    flex: 1;
+}
+
+
+.colleges-head {
+    font-size: 0.85rem;
+    font-weight: bold;
+    background-color: #4690ffae;
+    color: white;
+}
+
+.colleges>.colleges-head>div {
+    border: 1px solid white;
+    border-bottom: 0.5px rgba(0, 0, 0, 0.1) solid;
+}
+
+.colleges-content {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.btns{
+    margin-top: 1%;
+    text-align: center;
+}
+
+.btns>button {
+    margin:5px;
+    padding: 2px 6px;
+    font-size: 0.7rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.btns>button:hover{
+    background-color: #6EA4FB;
+    color: white;
+}
+
+.btns>button:focus{
+    background-color: #4e94febb;
+    color: white;
+}
+
+.loader{
+    position: absolute;
+    top: 75%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+}
+
+.colleges-content:hover {
+    background-color: rgba(91, 91, 91, 0.1);
+}
+
+@media  (max-width : 1000px) {
+    .colleges>div>div{
+        height: 15vh;
+    }
+}
+
+@media  screen and (max-width : 750px) {
+    .colleges-content{
+        margin: 5% 0;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .colleges>.colleges-head{
+        display: none;
+     }
+
+    .colleges-content>div:nth-of-type(1){
+       display: none;
+    }
+
+
+    .colleges-content>div{
+        padding: 2%;
+        width: 95%;
+        text-align: left;
+    }
+
+    .loader{
+        top:50%;
+    }
+}
