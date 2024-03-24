@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Margdarshaan/static/css/main.e73acece.css",
-    "main.js": "/Margdarshaan/static/js/main.96ca7712.js",
+    "main.css": "/Margdarshaan/static/css/main.a2cc71ba.css",
+    "main.js": "/Margdarshaan/static/js/main.128bd8ec.js",
     "static/media/law.jpg": "/Margdarshaan/static/media/law.e69de70d095c65c9784a.jpg",
     "static/media/hotel.jpg": "/Margdarshaan/static/media/hotel.2945353521c22e236932.jpg",
     "static/media/bgImg2.png": "/Margdarshaan/static/media/bgImg2.8812c5ff306304a85846.png",
@@ -29,11 +29,11 @@
     "static/media/youtube.png": "/Margdarshaan/static/media/youtube.4ad78c4004874a182b12.png",
     "index.html": "/Margdarshaan/index.html",
     "static/media/blob-scatterBg.svg": "/Margdarshaan/static/media/blob-scatterBg.c648d614f60a50e69436.svg",
-    "main.e73acece.css.map": "/Margdarshaan/static/css/main.e73acece.css.map",
-    "main.96ca7712.js.map": "/Margdarshaan/static/js/main.96ca7712.js.map"
+    "main.a2cc71ba.css.map": "/Margdarshaan/static/css/main.a2cc71ba.css.map",
+    "main.128bd8ec.js.map": "/Margdarshaan/static/js/main.128bd8ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.e73acece.css",
-    "static/js/main.96ca7712.js"
+    "static/css/main.a2cc71ba.css",
+    "static/js/main.128bd8ec.js"
   ]
 }
