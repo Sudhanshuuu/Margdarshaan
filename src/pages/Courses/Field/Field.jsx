@@ -22,7 +22,7 @@ function Field() {
                 if (render.current) {
                     render.current = false;
                     setLoader(true);
-                    let response = await fetch(`https://maargdarshan.onrender.com/courses/${field}`);
+                    let response = await fetch(`https://maargdarshan-api.vercel.app/courses/${field}`);
                     let data = await response.json();
                     setLoader(false);
                     setExams(data);    
