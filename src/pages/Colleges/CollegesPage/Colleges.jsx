@@ -25,7 +25,7 @@ function Colleges() {
                 if (render.current) {
                     render.current = false;
                     setLoader(true);
-                    let response = await fetch(`https://maargdarshan.onrender.com/colleges/${level}/${programme}`);
+                    let response = await fetch(`https://maargdarshan-api.vercel.app/colleges/${level}/${programme}`);
                     let data = await response.json();
                     setLoader(false);
                     setColleges(data);
