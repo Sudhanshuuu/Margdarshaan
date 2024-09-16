@@ -23,7 +23,7 @@ function Chatbox() {
 
         try {
             setloader(true);
-            let response = await fetch("https://maargdarshan.onrender.com/chatbox", options);
+            let response = await fetch("https://maargdarshan-api.vercel.app/chatbox", options);
             const data = await response.text();
             setMessage(data);
         }
