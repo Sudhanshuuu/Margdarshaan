@@ -22,7 +22,7 @@ function CollegeLevel() {
                 if (render.current) {
                     render.current = false;
                     setLoader(true);
-                    let response = await fetch(`https://maargdarshan.onrender.com/colleges/${level}`);
+                    let response = await fetch(`https://maargdarshan-api.vercel.app/colleges/${level}`);
                     let data = await response.json();
                     setLoader(false);
                     setDegrees(data);
